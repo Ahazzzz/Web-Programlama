@@ -1,31 +1,27 @@
-# Spor Salonu YÃ¶netim ve Randevu Sistemi
+# Spor Salonu Yönetim ve Randevu Sistemi
 
-Bu proje, Web Programlama dersi iÃ§in **ASP.NET Core MVC** kullanÄ±larak geliÅŸtirilen bir Spor Salonu YÃ¶netim ve Randevu Sistemi uygulamasÄ±dÄ±r.
+Bu proje, Sakarya Üniversitesi Bilgisayar Mühendisliği Web Programlama dersi kapsamında geliştirilmiştir.
 
-## ğŸ¯ Proje AmacÄ±
+## Proje Hakkında
+Bu proje, ASP.NET Core MVC mimarisi kullanılarak geliştirilen kapsamlı bir spor salonu yönetim sistemidir. 
+[cite_start]Sistem; antrenörlerin yönetimi, üye randevu işlemleri, raporlama servisleri ve yapay zeka destekli egzersiz önerileri gibi özellikleri kapsamaktadır[cite: 6, 7].
 
-[cite_start]Ders iÃ§eriÄŸinde Ã¶ÄŸrenilen teorik ve pratik bilgileri uygulayarak, antrenÃ¶r ve Ã¼ye yÃ¶netimi ile randevu sistemi Ã¶zelliklerini iÃ§eren bir web uygulamasÄ± geliÅŸtirmektir[cite: 4, 6]. Proje, tek bir spor salonu Ã¼zerinden ilerlemektedir.
+## ?? Özellikler
+* [cite_start]**Spor Salonu Tanımlamaları:** Hizmet türleri, süre ve ücret tanımlamaları[cite: 12].
+* [cite_start]**Antrenör Yönetimi:** Uzmanlık alanları ve çalışma saatlerinin ayarlanması[cite: 16, 17].
+* [cite_start]**Randevu Sistemi:** Müsaitlik kontrolü ile üye randevu işlemleri[cite: 19, 20].
+* [cite_start]**REST API & Raporlama:** Antrenör ve randevu verilerinin API üzerinden sunulması[cite: 24, 25].
+* [cite_start]**Yapay Zeka Entegrasyonu:** Kişiye özel egzersiz önerisi sunan AI modülü[cite: 30].
+* [cite_start]**Admin Paneli:** Tüm içeriklerin yönetildiği yönetim paneli[cite: 47].
+* [cite_start]**Rol Bazlı Yetkilendirme:** Admin ve Üye rolleri[cite: 49].
 
-## âœ¨ Temel ModÃ¼ller
+## ?? Kullanılan Teknolojiler
+* [cite_start]**Backend:** ASP.NET Core MVC, C# [cite: 36, 37]
+* [cite_start]**Veritabanı:** SQL Server / PostgreSQL, Entity Framework Core [cite: 38, 39]
+* [cite_start]**Frontend:** HTML5, CSS3, JavaScript, Bootstrap 5 [cite: 40, 41]
+* **Diğer:** REST API, LINQ, Yapay Zeka Servis Entegrasyonu (OpenAI API vb.)
 
-1.  [cite_start]**CRUD Ä°ÅŸlemleri:** AntrenÃ¶rler, hizmetler ve diÄŸer temel varlÄ±klar iÃ§in oluÅŸturma, okuma, gÃ¼ncelleme ve silme iÅŸlemleri uygulanmÄ±ÅŸtÄ±r[cite: 45].
-2.  [cite_start]**Randevu Sistemi:** Ãœyeler, antrenÃ¶rlerin mÃ¼saitlik durumuna gÃ¶re randevu alabilmekte ve sistem onay mekanizmasÄ±nÄ± iÃ§ermektedir[cite: 19, 21].
-3.  [cite_start]**Yetkilendirme:** Sistemde Admin ve Ãœye olmak Ã¼zere rol bazlÄ± yetkilendirme bulunmaktadÄ±r[cite: 49].
-4.  [cite_start]**Teknolojiler:** ASP.NET Core MVC, C#, Entity Framework Core, Bootstrap 5 ve SQL Server/PostgreSQL kullanÄ±lmÄ±ÅŸtÄ±r[cite: 36, 37, 38, 39, 40].
-5.  [cite_start]**API KullanÄ±mÄ±:** Projenin bir bÃ¶lÃ¼mÃ¼nde, REST API kullanÄ±larak veritabanÄ± ile iletiÅŸim saÄŸlanmaktadÄ±r[cite: 24].
-6.  [cite_start]**Yapay Zeka Entegrasyonu:** KullanÄ±cÄ± bilgilerine gÃ¶re egzersiz/diyet Ã¶nerileri sunan yapay zekÃ¢ entegrasyonu planlanmÄ±ÅŸtÄ±r[cite: 30, 31, 32].
-
-## ğŸ”‘ VarsayÄ±lan GiriÅŸ Bilgileri
-
-| Rol | KullanÄ±cÄ± AdÄ± (E-posta) | Åifre |
-| :--- | :--- | :--- |
-| **Admin** | ogrencinumarasi@sakarya.edu.tr | sau |
-
-## âš™ï¸ Kurulum NotlarÄ±
-
-1.  Projeyi klonlayÄ±n.
-2.  `DbContext` ve migration'larÄ± uygulayarak veritabanÄ±nÄ± oluÅŸturun.
-3.  Projeyi Ã§alÄ±ÅŸtÄ±rÄ±n.
-
----
-[cite_start]**Not:** DÃ¼zenli olarak commit yapÄ±lmakta ve proje geliÅŸtirme sÃ¼reci GitHub Ã¼zerinden takip edilmektedir[cite: 65].
+## ????? Geliştirici Bilgileri
+* **Ad Soyad:** [Adını Soyadını Buraya Yaz]
+* **Öğrenci No:** [Numaranı Buraya Yaz]
+* **Ders Grubu:** [Grubunu Yaz]
